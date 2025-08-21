@@ -39,8 +39,3 @@ Open http://localhost:8080
 ## Notes
 - Linux-only. For Windows, port using Winsock2 + I/O Completion Ports or use standalone Asio.
 - Security: basic path traversal protection; for production add stricter checks.
-
-
-## Resume Bullets (example)
-- Built a C++ HTTP server using epoll + thread pool handling 1,000+ concurrent requests; implemented zero-copy `sendfile`, connection reuse (keep-alive), and LRU caching to reduce median latency by ~40% under `ab`.
-- Diagnosed race conditions and fixed epoll edge-triggering stalls; used Valgrind to eliminate memory leaks and perf to optimize hot paths.
