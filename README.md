@@ -17,7 +17,6 @@
 - [File Overview](#file-overview)  
 - [Demo](#demo)  
 - [Future Enhancements](#future-enhancements)  
-- [License](#license)  
 
 ---
 
@@ -121,7 +120,6 @@ make
 - MIME type detection for different file types
 - Configurable logging levels
 - Detailed benchmarking & performance metrics
-
 
 
 
