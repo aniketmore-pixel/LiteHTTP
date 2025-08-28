@@ -56,4 +56,4 @@
 git clone https://github.com/yourusername/LiteHTTP.git
 cd LiteHTTP
 
-
+2. **Build the project:**
