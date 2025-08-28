@@ -50,11 +50,10 @@
 
 ## Installation & Running
 
-1. **Clone the repository:**
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/yourusername/LiteHTTP.git
 cd LiteHTTP
-```bash
 
-2. **Build the project:**
+2. Build the project:
