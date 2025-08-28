@@ -115,7 +115,6 @@ make
 #### www/index.html
 - Sample homepage to demonstrate **static file serving**.
 
-
 ## Future Enhancements
 - Dynamic content support (APIs)
 - HTTPS / TLS support
