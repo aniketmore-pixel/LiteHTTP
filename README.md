@@ -116,6 +116,14 @@ make
 - Sample homepage to demonstrate **static file serving**.
 
 
+## Future Enhancements
+- Dynamic content support (APIs)
+- HTTPS / TLS support
+- MIME type detection for different file types
+- Configurable logging levels
+- Detailed benchmarking & performance metrics
+
+
 
 
 
