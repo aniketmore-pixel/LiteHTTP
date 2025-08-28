@@ -34,20 +34,5 @@
 ---
 
 ## Project Structure
+<img width="233" height="223" alt="image" src="https://github.com/user-attachments/assets/d7bf219a-0def-4d2b-8999-ee4991cba0c9" />
 
-LiteHTTP/
-│
-├── www/
-│ └── index.html # Sample homepage
-│
-├── include/
-│ ├── http.h # HTTP request/response structures
-│ ├── cache.h # LRU cache implementation
-│ └── thread_pool.h # Thread pool implementation
-│
-├── src/
-│ ├── http.cpp # HTTP parsing & response functions
-│ └── main.cpp # Server main loop and epoll I/O
-│
-├── Makefile # Build instructions
-└── README.md # Project documentation
