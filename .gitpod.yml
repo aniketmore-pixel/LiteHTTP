@@ -1,0 +1,12 @@
+image: gitpod/workspace-full
+
+tasks:
+  - init: |
+      mkdir -p build && cd build
+      cmake .. && cmake --build . -j
+    command: |
+      ./server 8080 ../www
+
+ports:
+  - port: 8080
+    onOpen: open-preview
