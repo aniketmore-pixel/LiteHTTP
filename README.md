@@ -114,6 +114,9 @@ make
 #### www/index.html
 - Sample homepage to demonstrate **static file serving**.
 
+## Demo
+- [Demo](https://drive.google.com/file/d/1S-8rlRDHD7tpuit1I3thv39YTWIaiEsb/view?usp=drive_link)  
+
 ## Future Enhancements
 - Dynamic content support (APIs)
 - HTTPS / TLS support
