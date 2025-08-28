@@ -71,3 +71,16 @@ make
 ```bash
    The URL format will be:  https://8080-<workspace-id>.gitpod.io
 ```
+
+## Server Usage
+- Navigate to the server URL in a browser to see index.html.
+- Requests to other static files in www/ are cached automatically using LRUCache.
+- Supports simultaneous connections using ThreadPool.
+- Logs provide real-time visibility of server activity.
+
+
+
+
+
+
+
