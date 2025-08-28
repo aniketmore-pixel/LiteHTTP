@@ -36,3 +36,24 @@
 ## Project Structure
 <img width="233" height="223" alt="image" src="https://github.com/user-attachments/assets/d7bf219a-0def-4d2b-8999-ee4991cba0c9" />
 
+
+---
+
+## Requirements
+
+- C++17 or higher  
+- Linux or Unix-based OS (Ubuntu, Gitpod, etc.)  
+- Build tools: `g++`, `make`  
+- Network access for port binding  
+
+---
+
+## Installation & Running
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/yourusername/LiteHTTP.git
+cd LiteHTTP
+
+
