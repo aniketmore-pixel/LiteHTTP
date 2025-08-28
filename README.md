@@ -87,24 +87,24 @@ make
   - 🟢 **Green** → Responses sent
   - 🔴 **Red** → Errors
 
-### Example:
+#### Example:
 <img width="598" height="282" alt="image" src="https://github.com/user-attachments/assets/b2cf0d20-eaec-4316-81b5-07861375086f" />
 
 ## File Overview
 
-### include/cache.h
+#### include/cache.h
 - Implements a **simple LRU cache** for files smaller than 256KB.  
 - Stores recently accessed files to **reduce disk reads**.
 
-### include/thread_pool.h
+#### include/thread_pool.h
 - Implements a **thread pool** with a task queue.  
 - Handles **multiple requests concurrently** using worker threads.
 
-### include/http.h & src/http.cpp
+#### include/http.h & src/http.cpp
 - Defines `HttpRequest` and `HttpResponse` structures.  
 - Contains functions for **parsing HTTP requests** and **building HTTP response headers**.
 
-### src/main.cpp
+#### src/main.cpp
 - Main server logic:  
   - Creates a **non-blocking TCP socket**.  
   - Uses **epoll** for efficient event-driven I/O.  
@@ -112,7 +112,7 @@ make
   - Serves **static files** from `www/` with **LRU caching**.  
   - Logs activity with **timestamps and color coding**.
 
-### www/index.html
+#### www/index.html
 - Sample homepage to demonstrate **static file serving**.
 
 
