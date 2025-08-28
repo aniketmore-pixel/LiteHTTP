@@ -23,15 +23,31 @@
 
 ## Features
 
-- ✅ **Multithreaded** request handling using a configurable thread pool  
-- ✅ **LRU cache** for small static files (<256KB) to improve response speed  
-- ✅ **Non-blocking I/O** using `epoll` for high concurrency  
-- ✅ **HTTP/1.1 compliant** with default keep-alive support  
-- ✅ **Thread-safe logging** with timestamps and optional color coding  
-- ✅ Lightweight and portable — runs smoothly in **Linux environments**, including Gitpod  
-- ✅ Automatic handling of `/` → serves `index.html`  
+-  **Multithreaded** request handling using a configurable thread pool  
+-  **LRU cache** for small static files (<256KB) to improve response speed  
+-  **Non-blocking I/O** using `epoll` for high concurrency  
+-  **HTTP/1.1 compliant** with default keep-alive support  
+-  **Thread-safe logging** with timestamps and optional color coding  
+-  Lightweight and portable — runs smoothly in **Linux environments**, including Gitpod  
+-  Automatic handling of `/` → serves `index.html`  
 
 ---
 
 ## Project Structure
 
+LiteHTTP/
+│
+├── www/
+│ └── index.html # Sample homepage
+│
+├── include/
+│ ├── http.h # HTTP request/response structures
+│ ├── cache.h # LRU cache implementation
+│ └── thread_pool.h # Thread pool implementation
+│
+├── src/
+│ ├── http.cpp # HTTP parsing & response functions
+│ └── main.cpp # Server main loop and epoll I/O
+│
+├── Makefile # Build instructions
+└── README.md # Project documentation
