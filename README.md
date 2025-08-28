@@ -78,6 +78,16 @@ make
 - Supports simultaneous connections using ThreadPool.
 - Logs provide real-time visibility of server activity.
 
+# Logging & Monitoring
+- **Thread-safe, timestamped logs in the terminal**  
+- **Color-coded for clarity:**
+  - 🔵 **Blue** → Startup / Shutdown
+  - 🔵 **Cyan** → New client accepted
+  - 🟡 **Yellow** → Incoming requests
+  - 🟢 **Green** → Responses sent
+  - 🔴 **Red** → Errors
+
+
 
 
 
