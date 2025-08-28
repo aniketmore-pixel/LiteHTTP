@@ -58,3 +58,16 @@ cd LiteHTTP
 ```
 
 2. Build the project:
+```bash
+make
+```
+
+3. Run the server:
+```bash
+./server 8080 www
+```
+
+4. Open in browser (Gitpod):
+```bash
+   The URL format will be:  https://8080-<workspace-id>.gitpod.io
+```
