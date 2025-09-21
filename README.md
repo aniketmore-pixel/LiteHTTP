@@ -8,6 +8,7 @@
 
 ## Table of Contents
 
+- [Demo](#demo)  
 - [Features](#features)  
 - [Project Structure](#project-structure)  
 - [Requirements](#requirements)  
@@ -15,10 +16,14 @@
 - [Server Usage](#server-usage)  
 - [Logging & Monitoring](#logging--monitoring)  
 - [File Overview](#file-overview)  
-- [Demo](#demo)  
 - [Future Enhancements](#future-enhancements)  
 
 ---
+
+
+## Demo
+- [Watch this demo video](https://drive.google.com/file/d/1S-8rlRDHD7tpuit1I3thv39YTWIaiEsb/view?usp=drive_link)  
+
 
 ## Features
 
@@ -113,9 +118,6 @@ make
 
 #### www/index.html
 - Sample homepage to demonstrate **static file serving**.
-
-## Demo
-- [Demo](https://drive.google.com/file/d/1S-8rlRDHD7tpuit1I3thv39YTWIaiEsb/view?usp=drive_link)  
 
 ## Future Enhancements
 - Dynamic content support (APIs)
